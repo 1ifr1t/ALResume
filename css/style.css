@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+}
+
+p, h1, h2, a, li {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 44px;
+	color: #fff;
+}
+
+.line {
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #ff4500;
+	top: 120px;
+	z-index: -1;
+}
+
+img {
+	margin: 51px 0 0 111px;
+}
+
+h1 {
+	font-size: 36px;
+	left: 34%;	
+	position: absolute;
+	top: 50px;
+}
+
+#who {
+	margin-top: 112px;
+}
+
+#who h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 58px;
+}
+
+#who p {
+	font-size: 20px;
+	height: 48px;
+	width: 1738px;
+	margin-left: 92px;
+}
+
+#weneed {
+	margin-top: 154px;
+}
+
+#weneed h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 58px;
+}
+
+#weneed li {
+	font-size: 20px;
+	margin-left: 92px;
+}
+
+#youawait {
+	margin-top: 154px;
+}
+
+#youawait h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 58px;
+}
+
+#youawait li {
+	font-size: 20px;
+	margin-left: 92px;
+}
+
+.link {
+	position: absolute;
+	border: solid 1px #fff;
+	width: 148px;
+	height: 25px;
+	top: 1400px;
+	left: 45%;
+}
+
+.link a {
+	font-size: 20px;
+	position: absolute;
+	top: -12px;
+	left: 15px;
+	text-decoration: none;
+}
+
+.link:hover > a {
+	color: #000;
+}
+
+.link:hover {
+	background-color: #fff;
+}
+
+@media (max-width: 1366px) {
+
+	#who p {
+		width: 1150px;
+	}
+	#youawait {
+		margin-top: 80px;
+	}
+}
+
+@media (max-width: 1280px) {
+	h1 {
+		top: 70px;
+		font-size: 42px;
+		left: 25%;
+	}
+}
+
+@media (max-width: 768px) {
+	h1 {
+		top: 20px;
+	}
+	.line {
+		width: 100%;
+	}
+	#who p {
+		width: 580px;
+	}
+	#weneed {
+		margin-top: 200px;
+	}
+}
+
+@media (max-width: 460px) {
+	img {
+		margin: 51px 0 0 10px;
+	}
+	h1 {
+		font-size: 18px;
+		top: 80px;
+		left: 29%;
+	}
+	.line {
+		width: 100%;
+	}
+	#who {
+		margin-top: 32px;
+	}
+	#who h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	#who p {
+		font-size: 14px;
+		width: 380px;
+		margin-left: 30px;
+	}
+	#weneed {
+		margin-top: 200px;
+	}
+	#weneed h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	#weneed li {
+		font-size: 14px;
+		width: 380px;
+		margin-left: 30px;
+	}
+	#youawait {
+		margin-top: 20px;
+	}
+	#youawait h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	#youawait li {
+		font-size: 14px;
+		width: 380px;
+		margin-left: 30px;
+	}
+	.link {
+		top: 1050px;
+		left: 30%;
+	}
+}
